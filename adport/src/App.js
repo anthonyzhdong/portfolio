@@ -26,12 +26,20 @@ function App() {
     {
       repoName: "nzbirds",
       description: "A full-stack web application to display native New Zealand birds using React.js",
-      repoURL: "https://github.com/anthonyzhdong/Flat-Finance-TrackerAWS",
+      repoURL: "https://github.com/anthonyzhdong/nzbirds",
       languages: [
         { name: "JavaScript", color: "#f1e05a" },
         { name: "EJS", color: "#A52A2A" },
         { name: "CSS", color: "#563d7c" },
         { name: "HTML", color: "#e34c26" }
+      ]
+    },
+    {
+      repoName: "ANDIE",
+      description: "A Non Destructive Image Editor (ANDIE)",
+      repoURL: "https://github.com/anthonyzhdong/andie",
+      languages: [
+        { name: "Java", color: "#b07219" },
       ]
     }
 
