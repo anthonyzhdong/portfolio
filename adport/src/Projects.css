@@ -1,0 +1,56 @@
+/* Projects.css */
+.projects-container {
+    padding-top: 100px; /* Extra padding to account for navbar */
+  }
+  
+  .projects-description {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    text-align: center;
+    line-height: 1.6;
+    color: #555;
+    font-size: 1.1rem;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+    justify-items: center;
+  }
+  
+  /* Adjustments for smaller screens */
+  @media screen and (max-width: 768px) {
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .projects-description {
+      padding: 0 20px;
+      font-size: 1rem;
+    }
+  }
+  
+  /* Ensure repo cards look good within the grid */
+  .projects-grid .github-repo-card {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Add a subtle animation when page loads */
+  .projects-container {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
