@@ -1,25 +1,30 @@
 import React, { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import './NavBar.css';
 
 const Navbar = () => {
-  const [activeSection, setActiveSection] = useState('');
   const [menuOpen, setMenuOpen] = useState(false);
-
-  const handleClick = (section) => {
-    setActiveSection(section);
-    setMenuOpen(false);
-  };
+  const location = useLocation();
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
+  // Check if the current path matches the link path
+  const isActive = (path) => {
+    return location.pathname === path;
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <div className="navbar-logo">
+        <Link to="/" className="navbar-logo" onClick={closeMenu}>
           <h2>Portfolio</h2>
-        </div>
+        </Link>
         
         {/* Mobile menu button */}
         <div className="menu-icon" onClick={toggleMenu}>
@@ -31,49 +36,49 @@ const Navbar = () => {
         {/* Navigation links */}
         <ul className={`nav-menu ${menuOpen ? 'active' : ''}`}>
           <li className="nav-item">
-            <a 
-              href="#about-me" 
-              className={activeSection === 'about-me' ? 'nav-link active' : 'nav-link'}
-              onClick={() => handleClick('about-me')}
+            <Link 
+              to="/" 
+              className={isActive('/') ? 'nav-link active' : 'nav-link'}
+              onClick={closeMenu}
             >
               About Me
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a 
-              href="#projects" 
-              className={activeSection === 'projects' ? 'nav-link active' : 'nav-link'}
-              onClick={() => handleClick('projects')}
+            <Link 
+              to="/projects" 
+              className={isActive('/projects') ? 'nav-link active' : 'nav-link'}
+              onClick={closeMenu}
             >
               Projects
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a 
-              href="#cv" 
-              className={activeSection === 'cv' ? 'nav-link active' : 'nav-link'}
-              onClick={() => handleClick('cv')}
+            <Link 
+              to="/cv" 
+              className={isActive('/cv') ? 'nav-link active' : 'nav-link'}
+              onClick={closeMenu}
             >
               CV
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a 
-              href="#work-experience" 
-              className={activeSection === 'work-experience' ? 'nav-link active' : 'nav-link'}
-              onClick={() => handleClick('work-experience')}
+            <Link 
+              to="/work-experience" 
+              className={isActive('/work-experience') ? 'nav-link active' : 'nav-link'}
+              onClick={closeMenu}
             >
               Work Experience
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a 
-              href="#education" 
-              className={activeSection === 'education' ? 'nav-link active' : 'nav-link'}
-              onClick={() => handleClick('education')}
+            <Link 
+              to="/education" 
+              className={isActive('/education') ? 'nav-link active' : 'nav-link'}
+              onClick={closeMenu}
             >
               Education
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
