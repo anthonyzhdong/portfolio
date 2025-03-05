@@ -1,0 +1,76 @@
+/* CV.css */
+.cv-container {
+    padding-top: 100px; /* Extra padding for navbar */
+  }
+  
+  .cv-actions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .cv-download-button {
+    display: inline-block;
+    background-color: #0366d6;
+    color: white;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cv-download-button:hover {
+    background-color: #0256b5;
+  }
+  
+  .cv-viewer {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    height: 80vh;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .pdf-viewer {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .pdf-fallback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .cv-viewer {
+      height: 70vh;
+    }
+  }
+  
+  /* Add animation when loading the page */
+  .cv-container {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
