@@ -6,13 +6,24 @@ function App() {
 
   const repositories = [
     {
-      repoName: "Study Planner",
+      repoName: "StudyPlanner",
       description: "A C++ command-line calendar system for students to manage academic schedules, events, and study sessions.",
       repoURL: "https://github.com/anthonyzhdong/StudyPlanner",
       languages: [
         { name: "C++", color: "#f34b7d" }
       ]
+    },
+    {
+      repoName: "Flat-Finance-TrackerAWS",
+      description: "A full-stack web appllication for managing shared living expenses which can be deployed using virtualisation",
+      repoURL: "https://github.com/anthonyzhdong/Flat-Finance-TrackerAWS",
+      languages: [
+        { name: "JavaScript", color: "#f1e05a" },
+        { name: "EJS", color: "#A52A2A" },
+        { name: "CSS", color: "#563d7c" }
+      ]
     }
+
   ];
   return (
     <div className="App">
