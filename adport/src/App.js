@@ -9,8 +9,11 @@ function App() {
       repoName: "react",
       description: "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
       repoURL: "https://github.com",
-      language: "JavaScript",
-      languageColour: "#f1e05a"
+      languages: [
+        { name: "JavaScript", color: "#000000" },
+        { name: "HTML", color: "#2b7489" },
+        { name: "CSS", color: "#563d7c" }
+      ]
     }
   ];
   return (
@@ -22,9 +25,8 @@ function App() {
             key={index}
             repoName={repo.repoName}
             description={repo.description}
-            repoUrl={repo.repoURL}
-            language={repo.language}
-            languageColor={repo.languageColour}
+            repoURL={repo.repoURL}
+            languages={repo.languages}
           />
         ))}
       </main>

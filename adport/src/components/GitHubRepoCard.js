@@ -26,8 +26,8 @@ const GitHubRepoCard = ({
             {languages.map((lang, index) => (
                 <span key={index} className="repo-language">
                 <span 
-                    className="language-colour" 
-                    style={{ backgroundColour: lang.colour }}
+                    className="language-color" 
+                    style={{ backgroundColor: lang.color }}
                 ></span>
                 {lang.name}
                 </span>
