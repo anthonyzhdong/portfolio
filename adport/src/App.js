@@ -1,5 +1,6 @@
 import React from 'react';
 import GitHubRepoCard from './components/GitHubRepoCard';
+import Navbar from './components/NavBar';
 import './App.css';
 
 function App() {
@@ -46,7 +47,8 @@ function App() {
   ];
   return (
     <div className="App">
-      <h1> anthony portfolio </h1>
+
+    <Navbar />
       <main className="repo-container">
         {repositories.map((repo, index) => (
           <GitHubRepoCard
@@ -58,6 +60,7 @@ function App() {
           />
         ))}
       </main>
+
     </div>
     
   );
