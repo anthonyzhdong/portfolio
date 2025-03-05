@@ -5,8 +5,7 @@ const GitHubRepoCard = ({
     repoName,
     description,
     repoURL,
-    language = '',
-    languageColour = '#333'
+    languages = []
 }) => {
     return(
     <div className="github-repo-card">
@@ -22,14 +21,18 @@ const GitHubRepoCard = ({
       <p className="repo-description">{description}</p>
       
       <div className="repo-stats">
-        {language && (
-          <span className="repo-language">
-            <span 
-              className="language-colour" 
-              style={{ backgroundColor: languageColour }}
-            ></span>
-            {language}
-          </span>
+        {languages.length > 0 && (
+            <div className="repo-languages">
+            {languages.map((lang, index) => (
+                <span key={index} className="repo-language">
+                <span 
+                    className="language-colour" 
+                    style={{ backgroundColour: lang.colour }}
+                ></span>
+                {lang.name}
+                </span>
+            ))}
+            </div>
         )}
       </div>
       
