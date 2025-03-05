@@ -6,13 +6,11 @@ function App() {
 
   const repositories = [
     {
-      repoName: "react",
-      description: "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
-      repoURL: "https://github.com",
+      repoName: "Study Planner",
+      description: "A C++ command-line calendar system for students to manage academic schedules, events, and study sessions.",
+      repoURL: "https://github.com/anthonyzhdong/StudyPlanner",
       languages: [
-        { name: "JavaScript", color: "#000000" },
-        { name: "HTML", color: "#2b7489" },
-        { name: "CSS", color: "#563d7c" }
+        { name: "C++", color: "#f34b7d" }
       ]
     }
   ];
