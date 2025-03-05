@@ -15,12 +15,23 @@ function App() {
     },
     {
       repoName: "Flat-Finance-TrackerAWS",
-      description: "A full-stack web appllication for managing shared living expenses which can be deployed using virtualisation",
+      description: "A full-stack web application for managing shared living expenses which can be deployed using virtualisation",
       repoURL: "https://github.com/anthonyzhdong/Flat-Finance-TrackerAWS",
       languages: [
         { name: "JavaScript", color: "#f1e05a" },
         { name: "EJS", color: "#A52A2A" },
         { name: "CSS", color: "#563d7c" }
+      ]
+    },
+    {
+      repoName: "nzbirds",
+      description: "A full-stack web application to display native New Zealand birds using React.js",
+      repoURL: "https://github.com/anthonyzhdong/Flat-Finance-TrackerAWS",
+      languages: [
+        { name: "JavaScript", color: "#f1e05a" },
+        { name: "EJS", color: "#A52A2A" },
+        { name: "CSS", color: "#563d7c" },
+        { name: "HTML", color: "#e34c26" }
       ]
     }
 
