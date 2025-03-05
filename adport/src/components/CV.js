@@ -3,16 +3,15 @@ import './CV.css';
 
 const CV = () => {
   // The path to your CV PDF file in the public folder
-  const cvFilePath = '/resume.pdf';
+  const cvFilePath = '/AnthonyDongCV.pdf';
   
   return (
     <section id="cv" className="content-section cv-container">
-      <h2>Curriculum Vitae</h2>
       
       <div className="cv-actions">
         <a 
           href={cvFilePath} 
-          download="Anthony_Dong_CV.pdf"
+          download="AnthonyDongCV.pdf"
           className="cv-download-button"
         >
           Download CV

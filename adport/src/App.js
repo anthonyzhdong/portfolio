@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/NavBar';
 import Projects from './components/Projects';
+import CV from './components/CV';
 import './App.css';
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           {/* Add more routes for other sections as you develop them */}
-          <Route path="/cv" element={<ComingSoon title="CV" />} />
+          <Route path="/cv" element={<CV/>} />
           <Route path="/work-experience" element={<ComingSoon title="Work Experience" />} />
           <Route path="/education" element={<ComingSoon title="Education" />} />
           <Route path="*" element={<Home />} /> {/* Fallback route */}
