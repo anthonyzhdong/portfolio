@@ -4,6 +4,7 @@ import Navbar from './components/NavBar';
 import Projects from './components/Projects';
 import CV from './components/CV';
 import Home from './components/Home';
+import AboutMe from './components/AboutMe';
 import './App.css';
 
 function App() {
@@ -13,8 +14,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
-          {/* Add more routes for other sections as you develop them */}
           <Route path="/cv" element={<CV/>} />
           <Route path="/work-experience" element={<ComingSoon title="Work Experience" />} />
           <Route path="/education" element={<ComingSoon title="Education" />} />

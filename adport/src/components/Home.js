@@ -7,22 +7,20 @@ const Home = () => {
     <section className="home-container">
       <div className="hero-section">
         <div className="hero-content">
-          <h1 className="hero-title">Hi, I'm Anthony Dong</h1>
+          <h1 className="hero-title">Anthony Dong</h1>
           <h2 className="hero-subtitle">Computer Science Graduate</h2>
           <p className="hero-description">
-            Passionate about building innovative solutions to real-world problems. 
-            I specialize in full-stack development with experience in various 
-            programming languages and technologies.
+            Welcome to my portfolio website. Here you can explore my projects, 
+            qualifications, and learn more about my professional journey in the 
+            field of computer science and software development.
           </p>
-          <div className="contact-links">
-            <a href="mailto:anthonyzhdong@gmail.com" className="contact-button email">
-              <i className="contact-icon email-icon"></i>
-              anthonyzhdong@gmail.com
-            </a>
-            <a href="https://www.linkedin.com/in/anthonyzhdong/" target="_blank" rel="noopener noreferrer" className="contact-button linkedin">
-              <i className="contact-icon linkedin-icon"></i>
-              LinkedIn
-            </a>
+          <div className="hero-buttons">
+            <Link to="/about" className="cta-button primary">
+              About Me
+            </Link>
+            <Link to="/projects" className="cta-button secondary">
+              View Projects
+            </Link>
           </div>
         </div>
       </div>
@@ -31,6 +29,14 @@ const Home = () => {
         <h2 className="previews-title">Explore My Portfolio</h2>
         
         <div className="preview-cards">
+          <Link to="/about" className="preview-card">
+            <div className="preview-content">
+              <h3>About Me</h3>
+              <p>Learn more about my background, interests, and technical skills.</p>
+              <span className="preview-link">View About Me →</span>
+            </div>
+          </Link>
+          
           <Link to="/projects" className="preview-card">
             <div className="preview-content">
               <h3>Projects</h3>
@@ -62,6 +68,23 @@ const Home = () => {
               <span className="preview-link">View Education →</span>
             </div>
           </Link>
+        </div>
+      </div>
+
+      <div className="contact-section">
+        <h2 className="contact-title">Get In Touch</h2>
+        <p className="contact-description">
+          I'm always open to new opportunities and collaborations. Feel free to reach out!
+        </p>
+        <div className="contact-links">
+          <a href="mailto:anthonyzhdong@gmail.com" className="contact-button email">
+            <i className="contact-icon email-icon"></i>
+            anthonyzhdong@gmail.com
+          </a>
+          <a href="https://linkedin.com/in/anthonyzhdong" target="_blank" rel="noopener noreferrer" className="contact-button linkedin">
+            <i className="contact-icon linkedin-icon"></i>
+            LinkedIn
+          </a>
         </div>
       </div>
     </section>
