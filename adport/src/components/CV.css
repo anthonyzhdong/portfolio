@@ -3,10 +3,23 @@
     padding-top: 100px; /* Extra padding for navbar */
   }
   
-  .cv-actions {
+  .cv-header {
     display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 850px;
+    margin: 0 auto 30px;
+  }
+  
+  .cv-title-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cv-title {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
   }
   
   .cv-download-button {
@@ -29,7 +42,7 @@
     width: 100%;
     max-width: 850px;
     margin: 0 auto;
-    height: 80vh;
+    height: 100vh;
     border: 1px solid #e1e4e8;
     border-radius: 6px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -55,7 +68,11 @@
   /* Responsive adjustments */
   @media screen and (max-width: 768px) {
     .cv-viewer {
-      height: 70vh;
+      height: 80vh;
+    }
+    
+    .cv-header {
+      padding: 0 15px;
     }
   }
   

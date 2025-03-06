@@ -8,7 +8,7 @@ const CV = () => {
   return (
     <section id="cv" className="content-section cv-container">
       
-      <div className="cv-actions">
+      <div className="cv-header">
         <a 
           href={cvFilePath} 
           download="AnthonyDongCV.pdf"
