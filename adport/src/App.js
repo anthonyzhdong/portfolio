@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/NavBar';
 import Projects from './components/Projects';
 import CV from './components/CV';
+import Home from './components/Home';
 import './App.css';
 
 function App() {
@@ -24,15 +25,7 @@ function App() {
   );
 }
 
-// Simple Home component
-const Home = () => {
-  return (
-    <div className="content-section">
-      <h2>Welcome to My Portfolio</h2>
-      <p>Use the navigation menu to explore my projects, CV, work experience, and education.</p>
-    </div>
-  );
-};
+
 
 // Placeholder for sections that aren't implemented yet
 const ComingSoon = ({ title }) => {

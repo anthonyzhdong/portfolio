@@ -15,11 +15,11 @@ const Home = () => {
             programming languages and technologies.
           </p>
           <div className="contact-links">
-            <a href="mailto:your.email@example.com" className="contact-button email">
+            <a href="mailto:anthonyzhdong@gmail.com" className="contact-button email">
               <i className="contact-icon email-icon"></i>
-              your.email@example.com
+              anthonyzhdong@gmail.com
             </a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="contact-button linkedin">
+            <a href="https://www.linkedin.com/in/anthonyzhdong/" target="_blank" rel="noopener noreferrer" className="contact-button linkedin">
               <i className="contact-icon linkedin-icon"></i>
               LinkedIn
             </a>
