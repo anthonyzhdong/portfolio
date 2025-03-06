@@ -10,7 +10,7 @@ const Home = () => {
           <h1 className="hero-title">Hi, I'm Anthony Dong</h1>
           <h2 className="hero-subtitle">Computer Science Graduate</h2>
           <p className="hero-description">
-            Passionate about building elegant solutions to complex problems. 
+            Passionate about building innovative solutions to real-world problems. 
             I specialize in full-stack development with experience in various 
             programming languages and technologies.
           </p>

@@ -35,6 +35,17 @@ const Navbar = () => {
         
         {/* Navigation links */}
         <ul className={`nav-menu ${menuOpen ? 'active' : ''}`}>
+
+        <li className="nav-item">
+            <Link 
+              to="/" 
+              className={isActive('/') ? 'nav-link active' : 'nav-link'}
+              onClick={closeMenu}
+            >
+              Home
+            </Link>
+          </li>
+          
           <li className="nav-item">
             <Link 
               to="/" 
@@ -44,6 +55,7 @@ const Navbar = () => {
               About Me
             </Link>
           </li>
+
           <li className="nav-item">
             <Link 
               to="/projects" 
