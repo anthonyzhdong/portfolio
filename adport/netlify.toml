@@ -1,4 +1,0 @@
-[build]
-  base = "portfolio/adport"
-  command = "npm run build" # or whatever your build command is
-  publish = "dist" # or wherever your build outputs to
