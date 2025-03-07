@@ -1,38 +1,49 @@
-import React from 'react';
+import React , {useRef} from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
+
+    const portfolioSectionRef = useRef(null);
+  
+    // Create a function to handle the scroll action
+    const scrollToPortfolioSection = () => {
+      if (portfolioSectionRef.current) {
+        // Scroll to the section with an offset to account for the navbar
+        const yOffset = -250; // Small offset to position it nicely
+        const y = portfolioSectionRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        
+        window.scrollTo({
+          top: y,
+          behavior: 'smooth'
+        });
+      }
+    };
   return (
     <section className="home-container">
       <div className="hero-section">
         <div className="hero-content">
-          <h1 className="hero-title">Anthony Dong</h1>
+          <h1 className="hero-title">Hi, I'm Anthony Dong</h1>
           <h2 className="hero-subtitle">Computer Science Graduate</h2>
           <p className="hero-description">
-            Welcome to my portfolio website. Here you can explore my projects, 
-            qualifications, and learn more about my professional journey in the 
-            field of computer science and software development.
+           Welcome to my portfolio, Passionate about building innovative solutions to complex problems. 
           </p>
-          <div className="hero-buttons">
-            <Link to="/about" className="cta-button primary">
-              About Me
-            </Link>
-            <Link to="/projects" className="cta-button secondary">
-              View Projects
-            </Link>
-          </div>
         </div>
       </div>
 
       <div className="section-previews">
-        <h2 className="previews-title">Explore My Portfolio</h2>
+        <h2 
+        className="previews-title clickable"
+        onClick={scrollToPortfolioSection}
+        >
+        Explore My Portfolio
+        </h2>
         
-        <div className="preview-cards">
+        <div ref={portfolioSectionRef} className="preview-cards">
           <Link to="/about" className="preview-card">
             <div className="preview-content">
               <h3>About Me</h3>
-              <p>Learn more about my background, interests, and technical skills.</p>
+              <p>Learn more about my background, interests, and goals!</p>
               <span className="preview-link">View About Me →</span>
             </div>
           </Link>
@@ -40,7 +51,7 @@ const Home = () => {
           <Link to="/projects" className="preview-card">
             <div className="preview-content">
               <h3>Projects</h3>
-              <p>Check out my recent development work, including web applications, utility tools, and more.</p>
+              <p>Check out my some coding projects I've developed over the past few years!</p>
               <span className="preview-link">View Projects →</span>
             </div>
           </Link>
@@ -48,7 +59,7 @@ const Home = () => {
           <Link to="/cv" className="preview-card">
             <div className="preview-content">
               <h3>CV</h3>
-              <p>Review my qualifications, skills, and professional background.</p>
+              <p>Review my qualifications, soft skills, and professional background.</p>
               <span className="preview-link">View CV →</span>
             </div>
           </Link>
@@ -68,6 +79,8 @@ const Home = () => {
               <span className="preview-link">View Education →</span>
             </div>
           </Link>
+
+
         </div>
       </div>
 
@@ -82,8 +95,14 @@ const Home = () => {
             anthonyzhdong@gmail.com
           </a>
           <a href="https://linkedin.com/in/anthonyzhdong" target="_blank" rel="noopener noreferrer" className="contact-button linkedin">
-            <i className="contact-icon linkedin-icon"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white" className="contact-svg">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+            </svg>
             LinkedIn
+          </a>
+          <a href="https://github.com/anthonyzhdong" target="_blank" rel="noopener noreferrer" className="contact-button github">
+            <i className="contact-icon github-icon"></i>
+            GitHub
           </a>
         </div>
       </div>
