@@ -303,20 +303,3 @@
     width: 100px;
   }
   
-  /* Optional: Add a down arrow to make it more obvious */
-  .previews-title.clickable:before {
-    content: '↓';
-    position: absolute;
-    bottom: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 1.5rem;
-    color: #0366d6;
-    opacity: 0;
-    transition: opacity 0.3s ease, bottom 0.3s ease;
-  }
-  
-  .previews-title.clickable:hover:before {
-    opacity: 1;
-    bottom: -35px;
-  }

@@ -40,12 +40,35 @@ const Projects = () => {
       languages: [
         { name: "Java", color: "#b07219" },
       ]
+    },
+    {
+      repoName: "Blackjack",
+      description: "Blackjack using React and JavaScript",
+      repoURL: "https://github.com/anthonyzhdong/blackjack",
+      languages: [
+        { name: "JavaScript", color: "#f1e05a" },
+        { name: "HTML", color: "#e34c26" },
+        { name: "CSS", color: "#563d7c" }
+      ]
+    },
+    {
+      repoName: "Fitness App",
+      description: "Developing a fitness app",
+      repoURL: "https://github.com/anthonyzhdong/fitnessapp",
+      languages: [
+        { name: "JavaScript", color: "#f1e05a" },
+        { name: "HTML", color: "#e34c26" },
+        { name: "CSS", color: "#563d7c" }
+      ]
     }
+    
   ];
 
   return (
     <section id="projects" className="content-section projects-container">
-      <h2>My Projects</h2>
+      <div className="project-header">
+        <h2 className="project-title">My Projects</h2>
+      </div>
       <div className="projects-description">
         <p>
           Here are some of the projects I've worked on. Each project showcases different skills and technologies I've used in my development journey.

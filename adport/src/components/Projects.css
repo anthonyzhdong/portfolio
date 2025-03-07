@@ -1,4 +1,39 @@
 /* Projects.css */
+
+.content-section .project-header,
+.content-section .project-header *,
+.content-section .project-title {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.project-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.project-title:after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #0366d6;
+  margin: 15px auto 0;
+}
+
+.project-header {
+  text-align: center;
+  margin-bottom: 40px;
+  border-bottom: none;
+}
+
+.project-header h2 {
+  border-bottom: none;
+}
+
 .projects-container {
     padding-top: 100px; /* Extra padding to account for navbar */
   }
