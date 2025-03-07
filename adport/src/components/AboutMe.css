@@ -1,6 +1,6 @@
 /* AboutMe.css */
 .about-container {
-    padding-top: 100px;
+    padding-top: 20px;
     max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 60px;
@@ -44,7 +44,7 @@
   .about-content {
     display: flex;
     gap: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     padding: 0 20px;
   }
   
@@ -55,19 +55,18 @@
   
   .about-image-placeholder {
     width: 100%;
-    padding-bottom: 125%; /* For 4:5 aspect ratio */
-    background-color: #f0f0f0;
     border-radius: 8px;
-    position: relative;
+    overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #777;
   }
   
-  .about-image-placeholder span {
-    position: absolute;
+  .about-image {
+    width: 100%;
+    height: auto;
+    display: block;
   }
   
   .about-bio {
@@ -94,72 +93,97 @@
     font-size: 1.1rem;
   }
   
-  /* Contact information */
-  .contact-info {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 30px;
+  /* Tabs */
+  .tabs-container {
+    margin: 0 20px;
   }
   
-  .contact-link {
+  .tabs-navigation {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 30px;
+  }
+  
+  .tab-button {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #666;
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0 5px;
+  }
+  
+  .tab-button:hover {
+    color: #0366d6;
+  }
+  
+  .tab-button.active {
+    color: #0366d6;
+    border-bottom: 3px solid #0366d6;
+  }
+  
+  .tab-content {
+    display: none;
+    animation: fadeIn 0.4s ease-in-out;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+  /* Goals section */
+  .goals-section {
+    padding: 20px 0;
+  }
+  
+  .goal-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .goal-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  }
+  
+  .goal-title {
+    font-size: 1.3rem;
+    color: #0366d6;
+    margin-bottom: 15px;
     display: flex;
     align-items: center;
-    padding: 10px 15px;
-    background-color: #f5f5f5;
-    border-radius: 6px;
-    text-decoration: none;
-    color: #333;
-    transition: background-color 0.2s ease, transform 0.2s ease;
   }
   
-  .contact-link:hover {
-    background-color: #e0e0e0;
-    transform: translateY(-2px);
-  }
-  
-  .contact-icon {
-    width: 20px;
-    height: 20px;
+  .goal-icon {
+    width: 24px;
+    height: 24px;
     margin-right: 10px;
-    background-size: contain;
-    background-repeat: no-repeat;
+    display: inline-block;
   }
   
-  .email-icon {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23333'%3E%3Cpath d='M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z'/%3E%3C/svg%3E");
-  }
-  
-  .linkedin-icon {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230077b5'%3E%3Cpath d='M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z'/%3E%3C/svg%3E");
+  .goal-content {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
   }
   
   /* Interests section */
   .interests-section {
-    margin: 60px 0;
-    padding: 0 20px;
-  }
-  
-  .interests-title, .skills-title {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 2rem;
-    color: #333;
-    position: relative;
-  }
-  
-  .interests-title:after, .skills-title:after {
-    content: '';
-    display: block;
-    width: 40px;
-    height: 3px;
-    background-color: #0366d6;
-    margin: 15px auto 0;
+    padding: 20px 0;
   }
   
   .interests-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
   }
   
@@ -170,8 +194,7 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
@@ -180,16 +203,22 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
   }
   
+  .title-with-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
   .interest-icon {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: #f5f5f7;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 15px;
-    background-size: 35px;
+    margin-right: 12px;
+    background-size: 25px;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -197,7 +226,7 @@
   .interest-card h4 {
     font-size: 1.3rem;
     color: #0366d6;
-    margin-bottom: 12px;
+    margin: 0;
   }
   
   .interest-card p {
@@ -224,13 +253,12 @@
   
   /* Skills section */
   .skills-section {
-    margin: 60px 0;
-    padding: 0 20px;
+    padding: 20px 0;
   }
   
   .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
   }
   
@@ -281,7 +309,16 @@
       margin-bottom: 30px;
     }
     
-    .skills-grid, .interests-grid {
+    .tabs-navigation {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .tab-button {
+      margin-bottom: 10px;
+    }
+    
+    .interests-grid, .skills-grid {
       grid-template-columns: 1fr;
     }
   }
