@@ -180,6 +180,7 @@ const AboutMe = () => {
                   <li>AWS & Terraform</li>
                   <li>Docker</li>
                   <li>RESTful APIs</li>
+                  <li>Agile</li>
                 </ul>
               </div>
               
