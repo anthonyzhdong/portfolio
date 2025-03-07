@@ -29,13 +29,12 @@ const AboutMe = () => {
           <h4>Computer Science Graduate</h4>
           
           <p>
-            你好! Hello! I'm Anthony, a Computer Science graduate passionate about developing 
-            innovative solutions to real-world problems. My academic journey has equipped me 
+            你好! Hello! I'm Anthony, a Computer Science graduate passionate about software development. My past work experience alongside my academic journey has equipped me 
             with a strong foundation and I'm eager to apply my skills to create impactful software.
           </p>
           
           <p>
-            I enjoy working with various programming languages and technologies, and I'm 
+            I enjoy working with peers using different technologies and programming languages. I'm
             constantly looking for ways to expand my skillset. My current focus is finding a software development role in either Wellington or Auckland.
           </p>
         </div>
@@ -73,8 +72,9 @@ const AboutMe = () => {
                 Career Development
               </h4>
               <p className="goal-content">
-                Secure a software development position at a forward-thinking company in Wellington or Auckland
-                where I can contribute to meaningful projects and continue to grow my technical skills.
+              Begin my career as a software developer at a company that values innovation and collaboration.
+              Also to connect and learn from more experienced developers to further my knowledge and skills.
+
               </p>
             </div>
             
@@ -84,8 +84,8 @@ const AboutMe = () => {
                 Learning & Growth
               </h4>
               <p className="goal-content">
-                Deepen my expertise in full-stack development by mastering advanced React patterns,
-                server-side optimization techniques, and expanding my knowledge of cloud architecture.
+                Focusing on developing my back-end development skills especially in Python.
+                Also expand my knowledge on cloud architecture.
               </p>
             </div>
             
@@ -95,21 +95,11 @@ const AboutMe = () => {
                 Personal Achievement
               </h4>
               <p className="goal-content">
-                Complete a full marathon by the end of 2025, building on my half-marathon experiences
-                and maintaining a consistent training schedule.
+                Complete a sub 4 hour marathon by the end of 2025.
               </p>
             </div>
             
-            <div className="goal-item">
-              <h4 className="goal-title">
-                <span className="goal-icon">🌐</span>
-                Community Contribution
-              </h4>
-              <p className="goal-content">
-                Mentor junior developers and contribute to open-source projects that align with my values
-                and technical interests, giving back to the development community.
-              </p>
-            </div>
+           
           </div>
         </div>
         
@@ -134,7 +124,7 @@ const AboutMe = () => {
                   <h4>Weightlifting</h4>
                 </div>
                 <p>
-                  I've been lifting weights consistently for the past four years.
+                  I've been lifting weights consistently for the past four years. Reaching a personal best of 160kg deadlift, 132.5kg squat and 100kg bench press at ~68kg bodyweight.
                 </p>
               </div>
               
@@ -154,9 +144,8 @@ const AboutMe = () => {
                   <h4>Gaming & Content Creation</h4>
                 </div>
                 <p>
-                  I played fortnite professionally for 3 years and have a passion for content creation.
-                  I competed in multiple tournaments reaching top 3 in New Zealand and winning over $16,000 USD in prize money.
-                  I streamed on Twitch to over 16,000 followers and had a YouTube channel with over 2,000 subscribers.
+                I played fortnite professionally for 3 years, competing in multiple official Fortnite tournaments, earning up to $16,000 in prize money and ranking top 3 in New Zealand.
+                I also streamed on Twitch to over 16,000 followers and had a YouTube channel with over 2,000 subscribers.
                 </p>
               </div>
             </div>
@@ -174,25 +163,21 @@ const AboutMe = () => {
                   <li>Python</li>
                   <li>Java</li>
                   <li>C++</li>
+                  <li>C</li>
                   <li>HTML/CSS</li>
+                  <li>R</li>
+                  <li>SQL</li>
+                  <li>C#</li>
                 </ul>
               </div>
               
-              <div className="skill-category">
-                <h4>Frameworks & Libraries</h4>
-                <ul className="skills-list">
-                  <li>React.js</li>
-                  <li>Node.js</li>
-                  <li>Express</li>
-                  <li>EJS</li>
-                </ul>
-              </div>
+
               
               <div className="skill-category">
                 <h4>Tools & Technologies</h4>
                 <ul className="skills-list">
-                  <li>Git/GitHub</li>
-                  <li>AWS</li>
+                  <li>GitHub</li>
+                  <li>AWS & Terraform</li>
                   <li>Docker</li>
                   <li>RESTful APIs</li>
                 </ul>
@@ -202,7 +187,12 @@ const AboutMe = () => {
                 <h4>Soft Skills</h4>
                 <ul className="skills-list">
                   <li>Problem Solving</li>
-                  <li>Team Collaboration</li>
+                  <li>Adaptability</li>
+                  <li>Motivation</li>
+                  <li>Leadership</li>
+                  <li>Time Management</li>
+                  <li>Communication</li>
+                  <li>Initiative</li>
                   <li>Project Management</li>
                   <li>Communication</li>
                 </ul>

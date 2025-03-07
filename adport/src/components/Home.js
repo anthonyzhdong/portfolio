@@ -26,7 +26,7 @@ const Home = () => {
           <h1 className="hero-title">Hi, I'm Anthony Dong</h1>
           <h2 className="hero-subtitle">Computer Science Graduate</h2>
           <p className="hero-description">
-           Welcome to my portfolio, Passionate about building innovative solutions to complex problems. 
+           Passionate software developer looking for opportunities to create innovative solutions that combat real world problems.
           </p>
         </div>
       </div>
