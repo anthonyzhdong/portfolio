@@ -80,6 +80,15 @@ const Home = () => {
             </div>
           </Link>
 
+          <Link to="/contact" className="preview-card">
+            <div className="preview-content">
+              <h3>Contact Me</h3>
+              <p>Get in touch with me for opportunities, collaborations, or just to say hello!</p>
+              <span className="preview-link">Contact Me →</span>
+            </div>
+          </Link>
+
+
 
         </div>
       </div>

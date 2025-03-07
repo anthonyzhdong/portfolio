@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import CV from './components/CV';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
+import Contact from './components/Contact';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/cv" element={<CV/>} />
           <Route path="/work-experience" element={<ComingSoon title="Work Experience" />} />
           <Route path="/education" element={<ComingSoon title="Education" />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Home />} /> {/* Fallback route */}
         </Routes>
       </div>

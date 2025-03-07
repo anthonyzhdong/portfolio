@@ -92,6 +92,15 @@ const Navbar = () => {
               Education
             </Link>
           </li>
+          <li className="nav-item">
+            <Link 
+              to="/contact" 
+              className={isActive('/contact') ? 'nav-link active' : 'nav-link'}
+              onClick={closeMenu}
+            >
+              Contact Me!
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
