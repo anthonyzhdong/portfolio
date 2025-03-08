@@ -6,6 +6,7 @@ import CV from './components/CV';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
+import WorkExperience from './components/WorkExperience';
 import './App.css';
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
           <Route path="/about" element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/cv" element={<CV/>} />
-          <Route path="/work-experience" element={<ComingSoon title="Work Experience" />} />
+          <Route path="/work-experience" element={<WorkExperience />} />
           <Route path="/education" element={<ComingSoon title="Education" />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Home />} /> {/* Fallback route */}
