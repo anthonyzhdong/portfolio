@@ -13,7 +13,7 @@ const WorkExperience = () => {
       duration: '4 mos',
       location: 'Wellington, Wellington Region, New Zealand',
       skills: ['Communication', 'High Level Administration'],
-      logo: '/naylor-love-logo.png', // Make sure to add this image to your public folder
+      logo: '/naylorlovelogo.jpeg', // Make sure to add this image to your public folder
       description: []
     },
     {
@@ -25,7 +25,7 @@ const WorkExperience = () => {
       duration: '5 yrs',
       location: 'Wellington, New Zealand',
       skills: ['Social Media Marketing', 'Digital Designs'],
-      logo: '/asian-events-trust-logo.png', // Make sure to add this image to your public folder
+      logo: '/aet.png', // Make sure to add this image to your public folder
       description: [
         'Marketing and Web Development experience, working on the annual Wellington Lunar New Year festival'
       ]
@@ -39,7 +39,7 @@ const WorkExperience = () => {
       duration: '3 mos',
       location: 'Wellington, New Zealand',
       skills: ['Customer Service', 'Administration'],
-      logo: '/black-gates-logo.png', // Make sure to add this image to your public folder
+      logo: '/blackgateslogo.webp', // Make sure to add this image to your public folder
       description: []
     },
     {
@@ -51,7 +51,7 @@ const WorkExperience = () => {
       duration: '1 yr',
       location: 'Wellington, New Zealand',
       skills: ['Social Media Management', 'Content Creation'],
-      logo: '/social-media-icon.png', // Make sure to add this image to your public folder
+      logo: '/phluxzy.webp', // Make sure to add this image to your public folder
       description: [
         'Social Media Manager for "phluxzy" Gaming Account',
         'Grew Twitch following to 16,000+ followers',
