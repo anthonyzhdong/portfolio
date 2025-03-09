@@ -30,16 +30,4 @@ function App() {
   );
 }
 
-
-
-// Placeholder for sections that aren't implemented yet
-const ComingSoon = ({ title }) => {
-  return (
-    <div className="content-section">
-      <h2>{title}</h2>
-      <p>This section is coming soon. Please check back later!</p>
-    </div>
-  );
-};
-
 export default App;
