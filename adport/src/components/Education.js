@@ -14,7 +14,7 @@ const Education = () => {
         'Completed with strong academic standing',
         'University Scholarship recipient'
       ],
-      logo: '/university-of-otago-logo.png', // Add this image to your public folder
+      logo: '/otagologo.jpeg', // Add this image to your public folder
     },
     {
       id: 2,
@@ -27,7 +27,7 @@ const Education = () => {
         'NCEA Level 3 endorsed with Merit',
         'Participated in various extracurricular activities'
       ],
-      logo: '/hibs-logo.png', // Add this image to your public folder
+      logo: '/hibslogo.png', // Add this image to your public folder
     }
   ];
 
