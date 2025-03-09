@@ -8,11 +8,10 @@ const Education = () => {
       id: 1,
       institution: 'University of Otago',
       degree: 'Bachelor of Science in Computer Science',
-      period: '2020 - 2023',
+      period: '2022 - 2024',
       location: 'Dunedin, New Zealand',
       achievements: [
-        'Completed with strong academic standing',
-        'University Scholarship recipient'
+        'University of Otago Performance Entrance Scholarship '
       ],
       logo: '/otagologo.jpeg', // Add this image to your public folder
     },
@@ -25,7 +24,10 @@ const Education = () => {
       achievements: [
         'NCEA Level 1 & 2 endorsed with Excellence',
         'NCEA Level 3 endorsed with Merit',
-        'Participated in various extracurricular activities'
+        'Raised over $3,000 for the Cancer Society through the Relay for Life event',
+        'Participated in 2 school productions - How the West was Warped (2016) & Bugsy (2018)',
+        'Member of the HIBS dance crew (2016 - 2020)',
+        'Winner of HIBS Trade Fair - Ding Dong Dumplings (2019)'
       ],
       logo: '/hibslogo.png', // Add this image to your public folder
     }
