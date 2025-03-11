@@ -40,7 +40,7 @@ const WorkExperience = () => {
       location: 'Wellington, New Zealand',
       skills: ['Customer Service', 'Administration'],
       logo: '/blackgateslogo.webp', // Make sure to add this image to your public folder
-      description: []
+      description: ['Assisted with daily administrative tasks and managed appointment scheduling for patients at an optometry clinic. Provided excellent customer service, ensuring a positive experience for all patients']
     },
     {
       id: 4,
