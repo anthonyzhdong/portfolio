@@ -11,10 +11,10 @@ const WorkExperience = () => {
       type: 'Internship',
       period: 'Nov 2023 - Feb 2024',
       duration: '4 mos',
-      location: 'Wellington, Wellington Region, New Zealand',
+      location: 'Wellington, New Zealand',
       skills: ['Communication', 'High Level Administration'],
       logo: '/naylorlovelogo.jpeg', // Make sure to add this image to your public folder
-      description: []
+      description: ['Assisted in managing and overseeing construction projects, including the James Cook Hotel and Wellington Town Hall. Collaborated with a team to supervise general operations, ensuring adherence to all procedures. Effectively communicated with private clients and internal divisions. Supported project scheduling and documentation tasks.']
     },
     {
       id: 2,
@@ -27,7 +27,7 @@ const WorkExperience = () => {
       skills: ['Social Media Marketing', 'Digital Designs'],
       logo: '/aet.png', // Make sure to add this image to your public folder
       description: [
-        'Marketing and Web Development experience, working on the annual Wellington Lunar New Year festival'
+        'Collaborated with a team to develop the marketing strategy and website for Wellington’s annual Lunar New Year Festival. Responsibilities included designing and distributing marketing materials, organising social media advertising campaigns on various platforms, and creating and maintaining the festival website.'
       ]
     },
     {
