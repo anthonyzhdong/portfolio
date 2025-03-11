@@ -53,10 +53,7 @@ const WorkExperience = () => {
       skills: ['Social Media Management', 'Content Creation'],
       logo: '/phluxzy.webp', // Make sure to add this image to your public folder
       description: [
-        'Social Media Manager for "phluxzy" Gaming Account',
-        'Grew Twitch following to 16,000+ followers',
-        'Increased Twitter following to 4,500+ followers',
-        'Expanded YouTube channel to 2,100+ subscribes by creating 70+ YouTube videos'
+        'Managed social media marketing for a personal gaming account, achieving significant growth across multiple platforms by increasing Twitch following to 16,000 followers, expanding Twitter following to 4,500 followers, and growing YouTube subscribers to 2,150 by creating and editing over 70 videos. Additionally, represented gaming agencies FURY Australia, Team Process, and Overt in regular tournaments.'
       ]
     }
   ];
