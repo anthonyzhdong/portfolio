@@ -23,6 +23,17 @@ const Projects = () => {
       ]
     },
     {
+      repoName: "Gym app",
+      description: "Developing a full-stack gym app using React & Django",
+      repoURL: "https://github.com/anthonyzhdong/gymappp",
+      languages: [
+        { name: "Python", color: "#4B8BBF" },
+        { name: "JavaScript", color: "#f1e05a" },
+        { name: "HTML", color: "#e34c26" },
+        { name: "CSS", color: "#563d7c" }
+      ]
+    },
+    {
       repoName: "nzbirds",
       description: "A full-stack web application to display native New Zealand birds using React.js",
       repoURL: "https://github.com/anthonyzhdong/nzbirds",
@@ -50,17 +61,8 @@ const Projects = () => {
         { name: "HTML", color: "#e34c26" },
         { name: "CSS", color: "#563d7c" }
       ]
-    },
-    {
-      repoName: "Fitness App",
-      description: "Developing a fitness app",
-      repoURL: "https://github.com/anthonyzhdong/fitnessapp",
-      languages: [
-        { name: "JavaScript", color: "#f1e05a" },
-        { name: "HTML", color: "#e34c26" },
-        { name: "CSS", color: "#563d7c" }
-      ]
     }
+
     
   ];
 
