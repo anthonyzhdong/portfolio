@@ -23,9 +23,9 @@ const Projects = () => {
       ]
     },
     {
-      repoName: "Gym app",
+      repoName: "Gym App",
       description: "Developing a full-stack gym app using React & Django",
-      repoURL: "https://github.com/anthonyzhdong/gymappp",
+      repoURL: "https://github.com/anthonyzhdong/gymapp",
       languages: [
         { name: "Python", color: "#4B8BBF" },
         { name: "JavaScript", color: "#f1e05a" },
