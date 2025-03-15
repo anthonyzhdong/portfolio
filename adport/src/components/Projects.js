@@ -43,7 +43,8 @@ const Projects = () => {
         { name: "JavaScript", color: "#f1e05a" },
         { name: "EJS", color: "#A52A2A" },
         { name: "CSS", color: "#563d7c" },
-        { name: "HTML", color: "#e34c26" }
+        { name: "HTML", color: "#e34c26" },
+        { name: "SQL", color: "#dad8d8" }
       ]
     },
     {
