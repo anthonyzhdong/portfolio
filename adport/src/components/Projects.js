@@ -6,7 +6,7 @@ const Projects = () => {
   const repositories = [
     {
       repoName: "StudyPlanner",
-      description: "A C++ command-line calendar system for students to manage academic schedules, events, and study sessions.",
+      description: "A C++ command-line calendar system for students to manage academic schedules, events, and study sessions. Developed using agile practices and test-driven development in an environment of 4 developers.",
       repoURL: "https://github.com/anthonyzhdong/StudyPlanner",
       languages: [
         { name: "C++", color: "#f34b7d" }
