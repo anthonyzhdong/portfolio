@@ -138,6 +138,16 @@ const AboutMe = () => {
                   I've been running for the past year. I've completed two half marathons (2h 10m & 2h 3m) with a goal of running a full marathon by the end of 2025.
                 </p>
               </div>
+
+              <div className="interest-card">
+                <div className="title-with-icon">
+                  <div className="interest-icon volleyball-icon"></div>
+                  <h4>Volleyball</h4>
+                </div>
+                <p>
+                  I thoroughly enjoy playing volleyball. I've played in high school and during university with range of different people. I really enjoy communicating and working with others.
+                </p>
+              </div>
               
               <div className="interest-card">
                 <div className="title-with-icon">
@@ -175,10 +185,12 @@ const AboutMe = () => {
 
               
               <div className="skill-category">
-                <h4>Tools & Technologies</h4>
+                <h4>Tools & Frameworks</h4>
                 <ul className="skills-list">
                   <li>GitHub</li>
                   <li>AWS & Terraform</li>
+                  <li>MySQL</li>
+                  <li>Django</li>
                   <li>Docker</li>
                   <li>RESTful APIs</li>
                   <li>Agile</li>

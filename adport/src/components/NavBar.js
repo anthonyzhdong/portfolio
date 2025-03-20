@@ -23,7 +23,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
-          <h2>Portfolio</h2>
+          <h2>AD Portfolio</h2>
         </Link>
         
         {/* Mobile menu button */}
