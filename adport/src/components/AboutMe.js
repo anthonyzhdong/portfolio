@@ -72,7 +72,7 @@ const AboutMe = () => {
                 Career Development
               </h4>
               <p className="goal-content">
-              Begin my career as a software developer at a company that values innovation and collaboration.
+              Begin my career as a software developer at a company that values innovation, collaboration and communication.
               Also to connect and learn from more experienced developers to further my knowledge and skills.
 
               </p>
@@ -84,8 +84,8 @@ const AboutMe = () => {
                 Learning & Growth
               </h4>
               <p className="goal-content">
-                Focusing on developing my back-end development skills especially in Python.
-                Also expand my knowledge on cloud architecture.
+                Currently developing a full-stack fitness app web application using React, SQL and Django.
+                I've also been learning more about cloud computing and plan to complete my AWS certification by the end of the year.
               </p>
             </div>
             
@@ -96,6 +96,7 @@ const AboutMe = () => {
               </h4>
               <p className="goal-content">
                 Complete a sub 4 hour marathon by the end of 2025.
+
               </p>
             </div>
             
