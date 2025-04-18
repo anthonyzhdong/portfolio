@@ -42,12 +42,12 @@ The project is organized into several key components:
 ### Installation
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/portfolio-website.git
+   git clone https://github.com/anthonyzhdong/portfolio.git
    ```
 
 2. Navigate to the project directory
    ```
-   cd portfolio-website
+   cd adport
    ```
 
 3. Install dependencies
