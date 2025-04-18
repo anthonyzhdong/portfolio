@@ -5,7 +5,7 @@ import './WorkExperience.css';
 const WorkExperience = () => {
   const experiences = [
     {
-      id: 2,
+      id: 1,
       title: 'Technical Support',
       company: 'Savvy Up',
       type: 'Casual',
