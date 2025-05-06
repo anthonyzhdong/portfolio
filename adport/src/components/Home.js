@@ -24,9 +24,9 @@ const Home = () => {
       <div className="hero-section">
         <div className="hero-content">
           <h1 className="hero-title">Hi, I'm Anthony Dong</h1>
-          <h2 className="hero-subtitle">Computer Science Graduate</h2>
+          <h2 className="hero-subtitle">Software Developer</h2>
           <p className="hero-description">
-           Passionate software developer looking for opportunities to create innovative solutions that combat real world problems.
+           Passionate software developer at Inov8 Limited looking for opportunities to create innovative solutions that combat real world problems.
           </p>
         </div>
       </div>
