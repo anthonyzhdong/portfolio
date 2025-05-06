@@ -6,10 +6,22 @@ const WorkExperience = () => {
   const experiences = [
     {
       id: 1,
+      title: 'Junior Software Developer',
+      company: 'Inov8 Limited',
+      type: 'Permanent',
+      period: 'May 2025 - Present',
+      duration: 'Ongoing',
+      location: 'Wellington, New Zealand',
+      skills: [],
+      logo: '/inov8logo.png', // Make sure to add this image to your public folder
+      description: ['Software development and support for Inov8 Limited. Assisting with the development and maintainability of client projects.']
+    },
+    {
+      id: 2,
       title: 'Technical Support',
       company: 'Savvy Up',
       type: 'Casual',
-      period: 'April 2024 - Present',
+      period: 'April 2025 - Present',
       duration: 'Ongoing',
       location: 'Wellington, New Zealand',
       skills: ['Communication', 'Technical Support'],
@@ -17,7 +29,7 @@ const WorkExperience = () => {
       description: ['Suppporting the maintainence and administration of the Savvy Up website and courses.']
     },
     {
-      id: 2,
+      id: 3,
       title: 'Project Administrator',
       company: 'Naylor Love',
       type: 'Internship',
@@ -29,7 +41,7 @@ const WorkExperience = () => {
       description: ['Assisted in managing and overseeing construction projects, including the James Cook Hotel and Wellington Town Hall. Collaborated with a team to supervise general operations, ensuring adherence to all procedures. Effectively communicated with private clients and internal divisions. Supported project scheduling and documentation tasks.']
     },
     {
-      id: 3,
+      id: 4,
       title: 'Marketing and Web Development Manager',
       company: 'Asian Events Trust',
       type: 'Contract',
@@ -43,7 +55,7 @@ const WorkExperience = () => {
       ]
     },
     {
-      id: 4,
+      id: 5,
       title: 'Front Desk Receptionist',
       company: 'Black Gates Optometrists',
       type: 'Part-time',
@@ -55,7 +67,7 @@ const WorkExperience = () => {
       description: ['Assisted with daily administrative tasks and managed appointment scheduling for patients at an optometry clinic. Provided excellent customer service, ensuring a positive experience for all patients']
     },
     {
-      id: 5,
+      id: 6,
       title: 'Social Media Manager',
       company: 'Self-employed',
       type: 'Freelance',

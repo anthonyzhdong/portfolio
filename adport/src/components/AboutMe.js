@@ -26,16 +26,16 @@ const AboutMe = () => {
         
         <div className="about-bio">
           <h3>Anthony Dong</h3>
-          <h4>Computer Science Graduate</h4>
+          <h4>Software Developer</h4>
           
           <p>
-            你好! Hello! I'm Anthony, a Computer Science graduate passionate about software development. My past work experience alongside my academic journey has equipped me 
+            你好! Hello! I'm Anthony, a Computer Science graduate and a Junior Software Developer for Inov8 Limited. My past work experience alongside my academic journey has equipped me 
             with a strong foundation and I'm eager to apply my skills to create impactful software.
           </p>
           
           <p>
             I enjoy working with peers using different technologies and programming languages. I'm
-            constantly looking for ways to expand my skillset. My current focus is finding a software development role in either Wellington or Auckland.
+            constantly looking for ways to expand my skillset. My current focus is familiarizing myself with React with Redux and getting my skills to an enterprise level. 
           </p>
         </div>
       </div>
@@ -190,10 +190,12 @@ const AboutMe = () => {
                   <li>GitHub</li>
                   <li>AWS & Terraform</li>
                   <li>MySQL</li>
+                  <li>React & Redux</li>
                   <li>Django</li>
                   <li>Docker</li>
-                  <li>RESTful APIs</li>
+                  <li>Node.js & Express.js</li>
                   <li>Agile</li>
+                  <li>TDD & BDD</li>
                 </ul>
               </div>
               
