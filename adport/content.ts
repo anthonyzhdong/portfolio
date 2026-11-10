@@ -79,14 +79,14 @@ export const experience: Role[] = [
 export const projects: Project[] = [
   {
     name: "LoadSync",
-    href: "#",
+    href: "https://github.com/anthonyzhdong/trainingapp",
     stack: "Next.js · React · TypeScript",
     desc: "[A full-stack triathlon training tracker which logs sessions, training loads & calories.]",
     hardestPart: "Shear amount of metrics that goes into each sporting discipline & the variability and complexity of sporting calculations",
   },
   {
     name: "inboxpurge",
-    href: "#",
+    href: "https://github.com/anthonyzhdong/InboxPurge",
     stack: "next.js · fastapi · GmailAPI",
     desc: "A Gmail declutter tool: sorts your inbox into categories with an LLM, then lets you bulk-clean and unsubscribe in a few clicks.",
     hardestPart: "Categorisation of emails accuracy with an LLM, and the Gmail API's strict rate limits.",
