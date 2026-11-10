@@ -1,5 +1,9 @@
 # Anthony Dong's Portfolio Website
 
+> **Current site:** `adport/` is a single-page "terminal" portfolio built with Next.js (App Router, TypeScript, static export). Content lives in `adport/content.ts`. Run `npm install && npm run dev` inside `adport/`.
+>
+> The React site described below has been archived to `archive/react-portfolio/`.
+
 ## Live Website
 [View the live portfolio website](https://anthonyzhdong.netlify.app/)
 
