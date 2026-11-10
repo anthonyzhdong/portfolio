@@ -30,7 +30,7 @@ export const profile = {
   title: "Anthony Dong — Software Developer",
   summary:
     "Software developer at Inov8, Wellington NZ. My expertise lies in full-stack development with a focus on .NET and modern web technologies. ",
-  workingTowards: "[Developing my AI skillset by building projects]",
+  workingTowards: "[Developing my AI skillset by building projects that levereage LLM features]",
   links: [
     { label: "email", href: "mailto:anthonyzhdong@gmail.com" },
     { label: "github", href: "https://github.com/anthonyzhdong" },
@@ -79,13 +79,7 @@ export const experience: Role[] = [
     title: "Social Media Manager",
     org: "Self-employed",
     note: "Grew a gaming brand to 16k Twitch followers and 2k+ YouTube subscribers across 70+ videos.",
-  },
-  {
-    dates: "2022 — 2024",
-    title: "BSc Computer Science",
-    org: "University of Otago",
-    note: "University of Otago Performance Entrance Scholarship",
-  },
+  }
 ];
 
 export const education: Education[] = [
