@@ -7,6 +7,14 @@ export type Role = {
   title: string;
   org: string;
   note: string;
+  stack?: string[];
+};
+
+export type Education = {
+  degree: string;
+  school: string;
+  year: string;
+  note?: string;
 };
 
 export type Project = {
@@ -21,14 +29,15 @@ export const profile = {
   name: "Anthony Dong",
   title: "Anthony Dong — Software Developer",
   summary:
-    "Software developer at Inov8, Wellington NZ. I keep long-lived .NET systems for government and enterprise clients secure and dependable, and build my own products in Python and Next.js.",
+    "Software developer at Inov8, Wellington NZ. My expertise lies in full-stack development with a focus on .NET and modern web technologies. ",
+  workingTowards: "[Developing my AI skillset by building projects]",
   links: [
     { label: "email", href: "mailto:anthonyzhdong@gmail.com" },
     { label: "github", href: "https://github.com/anthonyzhdong" },
     { label: "linkedin", href: "https://linkedin.com/in/anthonyzhdong" },
     { label: "cv.pdf", href: "/AnthonyDongCV.pdf" },
   ] satisfies Link[],
-  footer: "© 2026 Anthony Dong · Wellington, Aotearoa",
+  footer: "© 2026 Anthony Dong · Wellington, New Zealand",
 };
 
 export const experience: Role[] = [
@@ -36,25 +45,28 @@ export const experience: Role[] = [
     dates: "May 2022 — now",
     title: "Software Developer",
     org: "Inov8 Limited",
-    note: ".NET services, SOAP integrations and Azure SQL for government and enterprise clients.",
+    note: "Upgrading and integrating full-stack .NET applications for government and enterprise clients.",
+    stack: ["C#", ".NET", "SOAP/WCF", "Azure SQL"],
   },
   {
     dates: "Feb 2026 — now",
     title: "Product Manager",
     org: "Launchpanion",
-    note: "Product direction for an AI companion for early-stage founders, plus the full-stack Next.js build.",
+    note: "Lead developer for an AI companion application for early-stage founders.",
+    stack: ["Next.js", "PostgreSQL", "Stripe", "OpenAI API", "Vercel"],
   },
   {
     dates: "Jan 2019 — now",
     title: "Marketing & Web Development Manager",
     org: "Asian Events Trust",
-    note: "Website and campaigns for Wellington's annual Lunar New Year Festival.",
+    note: "Designed the marketing strategy & developed a static Next.js website for the Wellington Lunar New Year festival. Hosted on Vercel. .",
+    stack: ["Next.js", "Vercel"],
   },
   {
     dates: "Nov 2023 — Feb 2024",
     title: "Project Administrator",
     org: "Naylor Love",
-    note: "Delivery support on the James Cook Hotel and Wellington Town Hall projects.",
+    note: "Delivered administration support on the James Cook Hotel and Wellington Town Hall projects.",
   },
   {
     dates: "Dec 2021 — Feb 2022",
@@ -76,6 +88,15 @@ export const experience: Role[] = [
   },
 ];
 
+export const education: Education[] = [
+  {
+    degree: "BSc Computer Science",
+    school: "University of Otago",
+    year: "2022 - 2024",
+    note: "Performance Entrance Scholarship",
+  }
+];
+
 export const projects: Project[] = [
   {
     name: "LoadSync",
@@ -94,7 +115,7 @@ export const projects: Project[] = [
   {
     name: "flat-finance-tracker",
     href: "https://github.com/anthonyzhdong/Flat-Finance-TrackerAWS",
-    stack: "javascript · sql · aws",
+    stack: "javascript · sql · terraform ·aws",
     desc: "Shared-expense tracking for flatmates, packaged for deployment on AWS.",
   },
   {
@@ -103,4 +124,13 @@ export const projects: Project[] = [
     stack: "c++",
     desc: "A command-line calendar for students to manage schedules, events and study sessions. Built test-first by a team of four.",
   },
+];
+
+export type Personal = { title: string; detail?: string };
+
+export const personal: Personal[] = [
+  { title: "Ultra Marathon Runner", detail: "42 km · 50km · 60km" },
+  { title: "Professional Video Gamer", detail: "Fortnite · phluxzy, 2018-2022" },
+  { title: "Hip Hop International World Champs (Megacrew Division)", detail: "Arizona · USA, 2018" },
+  { title: "Working towards", detail: "[70.3 Triathlon · Half Ironman, march 2027]" },
 ];

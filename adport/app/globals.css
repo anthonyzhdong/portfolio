@@ -64,6 +64,9 @@ main {
 @keyframes blink { 50% { opacity: 0; } }
 @media (prefers-reduced-motion: reduce) { .cursor { animation: none; } }
 .summary { font-size: 18px; max-width: 680px; color: var(--body); }
+.working-towards { font-size: 14px; color: var(--body); }
+.working-towards .label { color: var(--muted); }
+.working-towards .label::before { content: "▸ "; color: var(--accent); }
 .links { display: flex; flex-wrap: wrap; gap: 4px 24px; margin-top: 4px; }
 .links a { padding: 6px 0; }
 .links a:first-child { font-weight: 600; }
@@ -77,6 +80,26 @@ main {
 .role .title { font-weight: 600; }
 .role .org { color: var(--muted); }
 .role .note { color: var(--body); }
+.stack-tags {
+  list-style: none; margin: 8px 0 0; padding: 0;
+  display: flex; flex-wrap: wrap; gap: 6px;
+}
+.stack-tags li {
+  font-size: 0.72rem; line-height: 1.6; color: var(--muted);
+  background: var(--card); border: 1px solid var(--rule); border-radius: 3px;
+  padding: 1px 7px; white-space: nowrap;
+}
+
+/* ---------- education ---------- */
+.education { list-style: none; margin: 0; display: flex; flex-direction: column; gap: 18px; }
+.education .title { font-weight: 600; }
+.education .org { color: var(--muted); }
+.education .note { color: var(--body); }
+
+/* ---------- personal ---------- */
+.personal { list-style: none; margin: 0; display: flex; flex-direction: column; gap: 6px; }
+.personal .title { font-weight: 600; }
+.personal .org { color: var(--muted); }
 
 /* ---------- projects ---------- */
 .projects { display: flex; flex-direction: column; gap: 14px; }
