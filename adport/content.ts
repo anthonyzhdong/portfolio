@@ -29,8 +29,8 @@ export const profile = {
   name: "Anthony Dong",
   title: "Anthony Dong — Software Developer",
   summary:
-    "Software developer at Inov8, Wellington NZ. My expertise lies in full-stack development with a focus on .NET and modern web technologies. ",
-  workingTowards: "[Developing my AI skillset by building projects that levereage LLM features]",
+    "Software developer at Inov8, Wellington NZ. My expertise lies in full-stack development with a focus on .NET and modern web technologies. I'm always open for new opportunities & ideas especially in an industry that is so fast moving. ",
+  workingTowards: "[Developing my AI skillset by building projects that leverage LLM features]",
   links: [
     { label: "email", href: "mailto:anthonyzhdong@gmail.com" },
     { label: "github", href: "https://github.com/anthonyzhdong" },
