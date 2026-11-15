@@ -14,6 +14,9 @@ const plexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   title: profile.title,
   description: profile.summary,
+  icons: {
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+  },
   openGraph: {
     title: profile.title,
     description: profile.summary,
