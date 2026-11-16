@@ -35,7 +35,7 @@ export const profile = {
     { label: "email", href: "mailto:anthonyzhdong@gmail.com" },
     { label: "github", href: "https://github.com/anthonyzhdong" },
     { label: "linkedin", href: "https://linkedin.com/in/anthonyzhdong" },
-    { label: "cv.pdf", href: "/ADcv.pdf" },
+    { label: "cv.pdf", href: "/AnthonyDongCV.pdf" },
   ] satisfies Link[],
   footer: "© 2026 Anthony Dong · Wellington, New Zealand",
 };
